@@ -279,3 +279,45 @@ header {
     margin: 1.2rem 0 2rem;
 }
 /* Courses Section END */
+
+/* FAQ Section START */
+.faqs {
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq {
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2rem;
+}
+
+.faq__icon {
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+
+.faq p {
+    display: none;
+    margin-top: 0.8rem;
+}
+
+.faq.open p {
+    display: block;
+}
+/* FAQ Section END */
